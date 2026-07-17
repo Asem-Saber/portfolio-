@@ -33,9 +33,38 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Deploy to [Vercel](https://vercel.com) — zero config for Next.js.
 
+## Use It as Your Own
+
+Feel free to clone this repo and make it yours:
+
+```bash
+git clone https://github.com/Asem-Saber/portfolio-.git
+cd portfolio-
+npm install
+```
+
+To customize, update these files:
+
+| What to change | File |
+|---|---|
+| Name, role, email, resume URL | `lib/data.ts` → `GENERAL_INFO` |
+| Social links (GitHub, LinkedIn, etc.) | `lib/data.ts` → `SOCIAL_LINKS` |
+| Nav bar links | `lib/data.ts` → `NAV_LINKS` |
+| About me bio and highlights | `lib/data.ts` → `ABOUT_TEXT` |
+| Stats (projects count, GPA, etc.) | `lib/data.ts` → `STATS` |
+| Tech stack icons and names | `lib/data.ts` → `TECH_STACK` |
+| Projects (title, description, key features, tech, images) | `lib/data.ts` → `PROJECTS` |
+| Work experience and education | `lib/data.ts` → `EXPERIENCES` |
+| Profile photo | `public/images/personal-pic.jpeg` |
+| Project thumbnails and screenshots | `public/images/projects/` |
+| Site title and meta description | `app/layout.tsx` → `metadata` |
+| Color theme | `app/globals.css` → CSS variables |
+
+Almost everything lives in `lib/data.ts` — swap the content, drop in your images, and you're done.
+
 ## License
 
-This project is provided as-is for personal use.
+MIT — free to use, modify, and distribute.
 
 ## Contact
 
