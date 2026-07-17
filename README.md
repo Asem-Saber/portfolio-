@@ -20,19 +20,6 @@ Personal portfolio website showcasing my work as an AI Engineer.
 - **Experience** — Timeline of work, training, and education
 - **Contact** — Email and resume links
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Deployment
-
-Deploy to [Vercel](https://vercel.com) — zero config for Next.js.
-
 ## Use It as Your Own
 
 Feel free to clone this repo and make it yours:
@@ -41,6 +28,7 @@ Feel free to clone this repo and make it yours:
 git clone https://github.com/Asem-Saber/portfolio-.git
 cd portfolio-
 npm install
+npm run dev
 ```
 
 To customize, update these files:
@@ -61,6 +49,10 @@ To customize, update these files:
 | Color theme | `app/globals.css` → CSS variables |
 
 Almost everything lives in `lib/data.ts` — swap the content, drop in your images, and you're done.
+
+## Deployment
+
+Deploy to [Vercel](https://vercel.com) — zero config for Next.js.
 
 ## License
 
