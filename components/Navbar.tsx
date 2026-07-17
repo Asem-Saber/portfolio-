@@ -75,12 +75,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <a
-            href={`mailto:${GENERAL_INFO.email}`}
-            className="text-sm px-4 py-2 bg-ink text-cream rounded hover:bg-ink-light transition-colors"
-          >
-            Get in Touch
-          </a>
         </nav>
 
         {/* Mobile hamburger */}
@@ -124,13 +118,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <a
-            href={`mailto:${GENERAL_INFO.email}`}
-            className="text-lg px-6 py-3 bg-ink text-cream rounded"
-            onClick={() => setMenuOpen(false)}
-          >
-            Get in Touch
-          </a>
         </nav>
       </div>
     </header>
