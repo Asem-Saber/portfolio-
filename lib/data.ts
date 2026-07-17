@@ -356,7 +356,7 @@ export const EXPERIENCES: IExperience[] = [
     duration: "Apr 2026 – Jul 2026",
     description:
       "Implemented transformer architectures, prompt engineering strategies, and vector database integrations. Built a RAG-powered conversational pipeline over enterprise documents using ChromaDB and OpenAI embeddings. Delivered QAura as capstone project — presented to a panel of industry evaluators.",
-    logo: "/images/nti.jfif",
+    logo: "/images/nti.png",
     type: "work",
   },
   {
