@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
             <div className="hero-cta flex items-center gap-4">
               <a
-                href={`mailto:${GENERAL_INFO.email}`}
+                href="#contact"
                 className="px-6 py-3 bg-ink text-cream text-sm tracking-wider rounded hover:bg-ink-light transition-colors"
               >
                 GET IN TOUCH

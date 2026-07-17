@@ -49,13 +49,7 @@ const Contact = () => {
         >
           {GENERAL_INFO.email}
         </a>
-        <div className="mt-8 flex justify-center gap-4">
-          <a
-            href={`mailto:${GENERAL_INFO.email}`}
-            className="contact-btn px-6 py-2.5 bg-ink text-cream text-sm tracking-wider rounded hover:bg-ink-light transition-colors"
-          >
-            LET&apos;S TALK
-          </a>
+        <div className="mt-8 flex justify-center">
           <a
             href={GENERAL_INFO.resumeUrl}
             target="_blank"
