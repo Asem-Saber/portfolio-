@@ -35,7 +35,7 @@ export const GENERAL_INFO = {
   location: "Cairo, Egypt",
   email: "asem.saber.ai@gmail.com",
   phone: "+201129601354",
-  resumeUrl: "https://drive.google.com/drive/folders/1EwDi0xocdYhsRLPGQ84QGUNA1m91eymA",
+  resumeUrl: "https://drive.google.com/file/d/1SJDYde7jNYpO-oATUoLmusX4oqn2b0yQ/view?usp=sharing",
   availability: "Open to opportunities",
 };
 
@@ -46,6 +46,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const NAV_LINKS = [
+  { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
   { name: "Tech Stack", href: "#tech-stack" },
   { name: "Projects", href: "#projects" },
