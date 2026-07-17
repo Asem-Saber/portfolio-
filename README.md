@@ -56,7 +56,7 @@ Deploy to [Vercel](https://vercel.com) — zero config for Next.js.
 
 ## License
 
-MIT — free to use, modify, and distribute.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
