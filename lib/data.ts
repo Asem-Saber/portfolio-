@@ -84,7 +84,7 @@ export const TECH_STACK: TechItem[][] = [
     { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
     { name: "Streamlit", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
   ],
-  // Row 2 — 6 items (AI Frameworks & LLM Tools)
+  // Row 2 — 7 items (AI Frameworks & LLM Tools)
   [
     { name: "LangChain", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/langchain-color.png" },
     { name: "LangGraph", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/langchain-color.png" },
@@ -92,23 +92,21 @@ export const TECH_STACK: TechItem[][] = [
     { name: "OpenAI SDK", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/openai.png" },
     { name: "Anthropic", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/anthropic.png" },
     { name: "Ollama", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/ollama.png" },
-    { name: "CrewAI", icon: "https://asset.brandfetch.io/idKmcx_jjj/idmMVsFgeP.svg" },
+    { name: "CrewAI", icon: "/images/crewai.svg" },
   ],
-  // Row 3 — 3 items (Databases)
+  // Row 3 — 5 items (Databases & Infrastructure)
   [
     { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
     { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
     { name: "Redis", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
+    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   ],
   // Row 4 — 4 items (DevOps & Tools)
   [
-    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-    { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
     { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
     { name: "CI/CD", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" },
-  ],
-  // Row 5 — 1 item
-  [
+    { name: "Airflow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" },
     { name: "Selenium", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" },
   ],
 ];
@@ -196,6 +194,7 @@ export const PROJECTS: IProject[] = [
       "BERTopic NLP pipeline clustering articles into 200+ topics and labeling new articles as they come in",
       "Three-stage pipeline: scrape, model, serve — fully containerized with Docker Compose",
       "Interactive React dashboard for real-time topic trend exploration and author analysis",
+      "Implemented GitHub Actions CI/CD pipelines for scheduled scraping runs, automated testing, and containerized deployment",
     ],
     techStack: [
       "Python",
@@ -203,6 +202,7 @@ export const PROJECTS: IProject[] = [
       "BERTopic",
       "FastAPI",
       "Docker",
+      "GitHub Actions",
       "React",
       "TypeScript",
       "Tailwind CSS",
