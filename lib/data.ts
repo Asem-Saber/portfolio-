@@ -33,9 +33,9 @@ export const GENERAL_INFO = {
   name: "Asem Saber",
   role: "AI Engineer",
   location: "Cairo, Egypt",
-  email: "asem.saber.ai@gmail.com",
+  email: "asem.saber.bs@gmail.com",
   phone: "+201129601354",
-  resumeUrl: "https://drive.google.com/file/d/1pMTZqq7P0RaqFHENXzNgDXj5aoMq9Vjh/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1FYOVWQPEJaf0MXieUIC1Bl4jROK4Y9nr/view?usp=sharing",
   availability: "Open to opportunities",
 };
 
