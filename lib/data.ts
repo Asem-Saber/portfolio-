@@ -35,7 +35,7 @@ export const GENERAL_INFO = {
   location: "Cairo, Egypt",
   email: "asem.saber.bs@gmail.com",
   phone: "+201129601354",
-  resumeUrl: "https://drive.google.com/file/d/1FYOVWQPEJaf0MXieUIC1Bl4jROK4Y9nr/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1x1HJnGtsWRNmuh7aArMX6AasBflzhLkz/view?usp=sharing",
   availability: "Open to opportunities",
 };
 
