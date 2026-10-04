@@ -55,20 +55,20 @@ const ProjectDetails = ({ project }: Props) => {
     { scope: containerRef }
   );
 
-  // Animation 3: Parallax backgroundPosition on images (Site 2 exact)
+  // Animation 3: Fade-in on scroll for images
   useGSAP(
     () => {
       gsap.utils
         .toArray<HTMLDivElement>("#images > div")
         .forEach((imageDiv, i) => {
-          gsap.to(imageDiv, {
-            backgroundPosition: "center 0%",
-            ease: "none",
+          gsap.from(imageDiv, {
+            opacity: 0,
+            y: 40,
+            duration: 0.6,
+            ease: "power2.out",
             scrollTrigger: {
               trigger: imageDiv,
-              start: () => (i ? "top bottom" : "top 50%"),
-              end: "bottom top",
-              scrub: true,
+              start: () => (i ? "top 85%" : "top 60%"),
             },
           });
         });
@@ -181,14 +181,13 @@ const ProjectDetails = ({ project }: Props) => {
             {project.images.map((image) => (
               <div
                 key={image}
-                className="group relative w-full aspect-[750/400] bg-cream-dark rounded-lg overflow-hidden"
-                style={{
-                  backgroundImage: `url(${image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center 50%",
-                  backgroundRepeat: "no-repeat",
-                }}
+                className="group relative w-full bg-cream-dark rounded-lg overflow-hidden"
               >
+                <img
+                  src={image}
+                  alt=""
+                  className="w-full h-auto block"
+                />
                 <a
                   href={image}
                   target="_blank"
