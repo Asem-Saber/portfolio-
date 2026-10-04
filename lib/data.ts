@@ -361,6 +361,16 @@ export const FEATURED_PROJECTS = PROJECTS.filter((p) => p.featured);
 
 export const EXPERIENCES: IExperience[] = [
   {
+    title: "AI Agent Builder",
+    organization: "DataQueue",
+    location: "Netherlands · Remote",
+    duration: "Sep 2026 – Present",
+    description:
+      "Design, build, and optimize production-ready voice and conversational AI agents on the DataQueue VoiceHub platform — prompt design, tool and webhook configuration, and conversation flows that turn customer requirements into natural agent behavior. Work with the engineering and delivery teams to integrate agents with customer APIs, systems, and knowledge bases.",
+    logo: "/images/dataqueue_logo.jpeg",
+    type: "work",
+  },
+  {
     title: "Agentic AI Intern",
     organization: "National Telecommunication Institute",
     location: "Egypt",
