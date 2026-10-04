@@ -73,18 +73,19 @@ export const ABOUT_TEXT = {
 };
 
 export const TECH_STACK: TechItem[][] = [
-  // Row 1 — 8 items (Languages & AI/ML)
+  // Row 1 — 9 items (Core ML & Frameworks)
   [
     { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
     { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
     { name: "Scikit-learn", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
     { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    { name: "Ultralytics", icon: "/images/ultralytics.svg" },
     { name: "FastAPI", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
     { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
     { name: "Streamlit", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
   ],
-  // Row 2 — 7 items (AI Frameworks & LLM Tools)
+  // Row 2 — 8 items (LLM & Agent Tools)
   [
     { name: "LangChain", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/langchain-color.png" },
     { name: "LangGraph", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/langchain-color.png" },
@@ -93,20 +94,28 @@ export const TECH_STACK: TechItem[][] = [
     { name: "Anthropic", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/anthropic.png" },
     { name: "Ollama", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/1.44.0/files/dark/ollama.png" },
     { name: "CrewAI", icon: "/images/crewai.svg" },
+    { name: "vLLM", icon: "/images/vllm.svg" },
   ],
-  // Row 3 — 5 items (Databases & Infrastructure)
+  // Row 3 — 6 items (MLOps & Serving)
+  [
+    { name: "ONNX", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/onnx/onnx-original.svg" },
+    { name: "MLflow", icon: "/images/mlflow.svg" },
+    { name: "Langfuse", icon: "/images/langfuse.svg" },
+    { name: "BentoML", icon: "/images/bentoml.svg" },
+    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { name: "Airflow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" },
+  ],
+  // Row 4 — 5 items (Databases & Infrastructure)
   [
     { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
     { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
     { name: "Redis", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
-    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  ],
-  // Row 4 — 4 items (DevOps & Tools)
-  [
     { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
+  ],
+  // Row 5 — 2 items (Automation)
+  [
     { name: "CI/CD", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" },
-    { name: "Airflow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" },
     { name: "Selenium", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" },
   ],
 ];
