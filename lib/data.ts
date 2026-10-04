@@ -98,7 +98,7 @@ export const TECH_STACK: TechItem[][] = [
   ],
   // Row 3 — 6 items (MLOps & Serving)
   [
-    { name: "ONNX", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/onnx/onnx-original.svg" },
+    { name: "ONNX", icon: "/images/onnx.svg" },
     { name: "MLflow", icon: "/images/mlflow.svg" },
     { name: "Langfuse", icon: "/images/langfuse.svg" },
     { name: "BentoML", icon: "/images/bentoml.svg" },
