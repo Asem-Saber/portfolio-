@@ -122,6 +122,40 @@ export const TECH_STACK: TechItem[][] = [
 
 export const PROJECTS: IProject[] = [
   {
+    title: "CodeForge",
+    slug: "codeforge",
+    tagline: "Sandboxed Terminal Coding Agent with Human-in-the-Loop Approval",
+    year: 2026,
+    description:
+      "CodeForge is a terminal coding agent that writes Python, validates it, and runs it inside a disposable Docker container — never on your machine. Every file write and every execution stops and waits for your approval first. It works in a per-session workspace directory, and that directory is the only thing mounted into the sandbox. You describe the task; CodeForge writes it, checks it, runs it, and fixes it when it breaks.",
+    role: "",
+    keyFeatures: [
+      "Human-in-the-loop approval gates on every side effect — file writes and sandbox runs suspend the LangGraph via interrupt, and a denial is recorded as a tool result so the agent adapts instead of retrying blindly",
+      "Mechanical validation gate that AST-parses the saved file and resolves its imports against the sandbox interpreter before execution — syntax errors and missing modules are blocked, never run",
+      "Self-correcting retry loop — failed runs route back to the model with stderr attached, up to 3 attempts, then stop and hand the problem back to you",
+      "Docker-isolated execution — code runs in a disposable container with only the session workspace mounted, so nothing touches the host filesystem",
+      "Budget guardrails — hard ceilings on turns, tokens, and sandbox wall time",
+    ],
+    techStack: [
+      "Python",
+      "LangGraph",
+      "LangChain",
+      "Docker",
+      "Rich",
+      "prompt-toolkit",
+      "GitHub Actions",
+    ],
+    thumbnail: "/images/projects/codeforge_banner.png",
+    images: [
+      "/images/projects/codeforge_run1.png",
+      "/images/projects/codeforge_run2.png",
+      "/images/projects/codeforge_run3.png",
+      "/images/projects/codeforge_run4.png",
+    ],
+    sourceCode: "https://github.com/Asem-Saber/CodeForge",
+    featured: false,
+  },
+  {
     title: "QAura",
     slug: "qaura",
     tagline: "Autonomous Software Testing & Self-Healing Multi-Agent System",
